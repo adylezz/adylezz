@@ -28,12 +28,14 @@ jobs:
           config_timezone: Asia/Kolkata
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          extras_css:
-            [fill="#ebedf0"] { fill: #fbdce9; }
-            [fill="#9be9a8"] { fill: #ffb0d6; }
-            [fill="#40c463"] { fill: #ff6fb8; }
-            [fill="#30a14e"] { fill: #f52380; }
-            [fill="#216e39"] { fill: #9c0f56; }
+          extras_css: |
+            :root {
+              --color-calendar-graph-day-bg: #2d0221;
+              --color-calendar-graph-day-L1-bg: #fbdce9;
+              --color-calendar-graph-day-L2-bg: #ffb0d6;
+              --color-calendar-graph-day-L3-bg: #ff6fb8;
+              --color-calendar-graph-day-L4-bg: #f52380;
+            }
 
       # ------------------------------------------------------------------ #
       # Coding habits: commits per hour of day, per weekday, language activity
