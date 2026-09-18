@@ -9,7 +9,7 @@
 <br>
 
 <!-- NAME - animated typing -->
-<a href="https://github.com/adyonchain">
+<a href="https://github.com/adylezz">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=f52380&center=true&vCenter=true&width=560&lines=Adriana+%E2%8B%86+ML+%26+Data+Analysis+%E2%8B%86;Always+learning,+always+building+%E0%B0%84;01001100+01100101+01110100+00100111+01110011+00100000+01100011+01101111+01100100+01100101+00100001" alt="typing banner">
 </a>
 
@@ -17,11 +17,10 @@
 
 <!-- SOCIALS -->
 <a href="https://www.linkedin.com/in/adrianaledezmam"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:adyledd@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=f52380" alt="Email"></a>
-<a href="https://www.instagram.com/adyonchain"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=f52380" alt="Instagram"></a>
-<a href="https://x.com/adyonchain"><img src="https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=f52380" alt="X"></a>
+<a href="https://www.instagram.com/databyady"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=f52380" alt="Instagram"></a>
+<a href="https://x.com/databyady"><img src="https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=f52380" alt="X"></a>
 
-<img src="https://komarev.com/ghpvc/?username=adyonchain&style=flat&color=f52380&label=profile+views" alt="profile views">
+<img src="https://komarev.com/ghpvc/?username=adylezz&style=flat&color=f52380&label=profile+views" alt="profile views">
 
 </div>
 
