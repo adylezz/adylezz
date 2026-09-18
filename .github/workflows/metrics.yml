@@ -30,11 +30,11 @@ jobs:
           plugin_isocalendar_duration: full-year
           extras_css: |
             :root {
-              --color-calendar-graph-day-bg: #2d0221;
-              --color-calendar-graph-day-L1-bg: #fbdce9;
-              --color-calendar-graph-day-L2-bg: #ffb0d6;
-              --color-calendar-graph-day-L3-bg: #ff6fb8;
-              --color-calendar-graph-day-L4-bg: #f52380;
+              --color-calendar-graph-day-bg: #2d0221 !important;
+              --color-calendar-graph-day-L1-bg: #fbdce9 !important;
+              --color-calendar-graph-day-L2-bg: #ffb0d6 !important;
+              --color-calendar-graph-day-L3-bg: #ff6fb8 !important;
+              --color-calendar-graph-day-L4-bg: #f52380 !important;
             }
 
       # ------------------------------------------------------------------ #
