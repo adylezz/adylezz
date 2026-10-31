@@ -91,3 +91,65 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_achievements_display: compact
           plugin_achievements_limit: 0
+
+
+      - name: Checkout generated metrics
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Apply pink palette to 3D calendar
+        run: |
+          git pull --ff-only origin main
+
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("assets/metrics.isocalendar.svg")
+
+          if not path.exists():
+              raise SystemExit(
+                  "Calendar SVG not found in main branch."
+              )
+
+          svg = path.read_text(encoding="utf-8")
+
+          palette = {
+              "#ebedf0": "#fce7f1",
+              "#ffee4a": "#fbdce9",
+              "#ffc501": "#ffb0d6",
+              "#fe9600": "#ff6fb8",
+              "#03001c": "#f52380",
+              "#9be9a8": "#fbdce9",
+              "#40c463": "#ffb0d6",
+              "#30a14e": "#ff6fb8",
+              "#216e39": "#f52380",
+          }
+
+          def recolor(match):
+              original = match.group(1)
+              new = palette.get(
+                  original.lower(), original
+              )
+              return f'fill="{new}"'
+
+          svg = re.sub(
+              r'fill="(#[0-9a-fA-F]{6})"',
+              recolor,
+              svg,
+          )
+
+          path.write_text(svg, encoding="utf-8")
+          print("Pink palette applied successfully!")
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/metrics.isocalendar.svg
+
+          if ! git diff --staged --quiet; then
+            git commit -m "style: refresh pink 3D calendar"
+            git push origin HEAD:main
+          fi
