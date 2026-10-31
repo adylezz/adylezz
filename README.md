@@ -52,41 +52,52 @@ From Financial Engineer to Data Scientist, tech-obsessed since way before it was
 
 ## My OGs 💻
 
-<img src="https://skillicons.dev/icons?i=python,postgres,mongodb,mysql,git,github,vscode,line=11" alt="tech stack">
+<img src="https://skillicons.dev/icons?i=python,postgres,mongodb,mysql,git,github,vscode&perline=11" alt="Tech stack">
 
 </div>
 
 ---
 
+
 <div align="center">
 
-## Tech Radar 📡
+<h2>Tech Radar 📡</h2>
 
-<tr>
-<td width="50%" align="center" valign="middle">
-
-<!-- Self-rated radar - edit assets/skills.json, the workflow redraws it -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
-  <img src="assets/radar-dark.svg" width="400" alt="skill radar chart">
-</picture>
-
-</td>
-<td width="50%" align="center" valign="middle">
-
-<!-- Live radar built from real language byte counts across your repos -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-langs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
-  <img src="assets/radar-langs-dark.svg" width="400" alt="language radar chart">
-</picture>
-
-</td>
-</tr>
+<table>
+  <tr>
+    <td width="50%" align="center" valign="middle">
+      <picture>
+        <source
+          media="(prefers-color-scheme: dark)"
+          srcset="assets/radar-dark.svg">
+        <source
+          media="(prefers-color-scheme: light)"
+          srcset="assets/radar-light.svg">
+        <img
+          src="assets/radar-dark.svg"
+          width="400"
+          alt="Ady's skill radar">
+      </picture>
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <picture>
+        <source
+          media="(prefers-color-scheme: dark)"
+          srcset="assets/radar-langs-dark.svg">
+        <source
+          media="(prefers-color-scheme: light)"
+          srcset="assets/radar-langs-light.svg">
+        <img
+          src="assets/radar-langs-dark.svg"
+          width="400"
+          alt="Programming languages radar">
+      </picture>
+    </td>
+  </tr>
 </table>
 
 </div>
+
 
 ---
 
