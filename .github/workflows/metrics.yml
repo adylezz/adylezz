@@ -25,7 +25,7 @@ jobs:
           user: adylezz
           filename: assets/metrics.isocalendar.svg
           base: ""
-          config_timezone: Asia/Kolkata
+          config_timezone: America/La_Paz
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           extras_css: |
