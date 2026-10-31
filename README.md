@@ -101,7 +101,26 @@ From Financial Engineer to Data Scientist, tech-obsessed since way before it was
 
 ---
 
-<div align="center">
+<h2 align="center">Featured Projects ✨</h2>
+
+<div align="left">
+
+### 💗 On-Chain Data Valuation with Explainable AI
+
+**Machine Learning · Quantitative Finance · Blockchain**
+
+*Can we measure how much financial information is actually worth?*
+
+Developed an explainable AI framework to evaluate the informational value of DeFi market datasets, using out-of-sample validation and statistical inference designed for time-dependent data.
+
+**Tech Stack:** `Python` · `Scikit-learn` · `SHAP` · `Pandas` · `NumPy`
+
+[![Explore Project](https://img.shields.io/badge/Explore_Project-f52380?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adylezz/tcc-infofi-precificacao)
+
+</div>
+
+---
+
 
 ## Contribution Calendar 💡
 
